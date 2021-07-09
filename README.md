@@ -2,7 +2,7 @@
 
 Chrome extension designed to allow the user to replace text on a webpage with the string of their choice.
 
-<img src="example.png" alt="Chrome Extension Image" style="float: left; margin-right: 10px;" />
+![alt text](https://github.com/JohnGardiner93/text-replacement-extension/example.png?raw=true)
 
 --- Using the Extension ---  
 Current state: Extension will ask you to run as each page loads.
