@@ -1,0 +1,26 @@
+{
+  "name": "Tiny Um🅱rella",
+  "description": "Replaces text on a page with the text provided by the user",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": "b.png",
+    "default_title": "Tiny Um🅱rella"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Replaces text on a page with the text provided by the user"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
