@@ -2,15 +2,21 @@
 
 Chrome extension designed to allow the user to replace text on a webpage with the string of their choice.
 
---- Using the Extension ---
+<img src="example.png" alt="Chrome Extension Image" style="float: left; margin-right: 10px;" />
+
+--- Using the Extension ---  
 Current state: Extension will ask you to run as each page loads.
 
---- Future Additions ---
+CURRENTLY WORKS BEST ON STATIC SITES. Will intelligently wait for page loading in later additions.
+
+--- Future Additions ---  
 Future plans are to have a toggle function so that the feature can be toggled on and off.
 
 Also, there will be configurable inputs so that the user can choose to change items other than 🅱.
 
---- How to Install ---
+Add waiting period/intelligent wait so that page fully loads before running.
+
+--- How to Install ---  
 This extension will eventually be available on the Chrome Web Store. Until that time, this repository must be downloaded. Download the files and load the parent folder hosting the files.
 
 Follow these instructions from Google on loading extensions: https://developer.chrome.com/docs/extensions/mv3/getstarted/
